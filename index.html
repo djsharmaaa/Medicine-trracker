@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Medicine reminder</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Medicine Tracker</h1>
+            <form>
+                <fieldset>
+                    <label for="medicine-name">Medicine Name:</label>
+                <input type="text" id="medicine-name" name="medicine-name" required><br><br>
+                <label for="dosage">Number Of Medicine Each Day:</label>
+                <input type="number" id="dosage" name="dosage" required><br><br>
+                <label for="time">Time Gap Between Each Medicine:</label>
+                <input type="time" id="time" name="time" required>
+                </fieldset>
+                <button type="button" onclick="addmedicine()">Add Medicine</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Medicine Name</th>
+                        <th>Qty</th>
+                        <th>Time</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="medicine-list">
+                </tbody>
+                
+            </table>
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+    </html>

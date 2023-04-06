@@ -1,0 +1,102 @@
+/* Global styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #1e558b; */
+    background-image: url('https://images.theconversation.com/files/299592/original/file-20191030-17868-1jqgbz6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop');
+    background-size: 100% 140%;
+}
+
+
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+
+
+
+fieldset{
+  border: none;
+ 
+}
+
+.container {
+    max-width: 55%;
+   
+    padding: 20px;
+
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px;
+    background-color:rgb(45, 158, 228);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+  background-color:rgb(45, 158, 228);
+    color: #fff;
+}
+tbody{
+  overflow: scroll;
+}
+
+
+/* Form styles */
+.form {
+    margin-bottom: 10px;
+}
+
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+   
+}
+
+input[type="time"] {
+    width: auto;
+}
+
+#dosage{
+  border: none;
+}
+
+
